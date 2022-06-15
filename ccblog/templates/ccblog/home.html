@@ -8,100 +8,101 @@
 
 {% block content %}
     <div class="container">
-    <h1 class="mt-5 mb-3">Последние записи</h1>
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{% static '/img/gr_1.png' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Название карточки</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
-                        </div>    
+        <h1 class="mt-5 mb-3">Последние записи</h1>
+        {{ posts }}
+        <!-- <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="{% static '/img/gr_1.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Название карточки</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
+                            </div>    
                             <small class="text-muted">28.05.2022</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{% static '/img/gr_2.png' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Название карточки</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
-                        </div>    
-                            <small class="text-muted">28.05.2022</small>
+            
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="{% static '/img/gr_2.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Название карточки</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
+                            </div>    
+                                <small class="text-muted">28.05.2022</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{% static '/img/gr_3.png' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Название карточки</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
-                        </div>    
-                            <small class="text-muted">28.05.2022</small>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="{% static '/img/gr_3.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Название карточки</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
+                            </div>    
+                                <small class="text-muted">28.05.2022</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{% static '/img/gr_4.png' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Название карточки</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
-                        </div>    
-                            <small class="text-muted">28.05.2022</small>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="{% static '/img/gr_4.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Название карточки</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
+                            </div>    
+                                <small class="text-muted">28.05.2022</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{% static '/img/gr_5.png' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Название карточки</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
-                        </div>    
-                            <small class="text-muted">28.05.2022</small>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="{% static '/img/gr_5.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Название карточки</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
+                            </div>    
+                                <small class="text-muted">28.05.2022</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card mb-4 shadow-sm">
-                <img class="card-img-top" src="{% static '/img/gr_6.png' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Название карточки</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                        <div class="btn-group">
-                            <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
-                        </div>    
-                            <small class="text-muted">28.05.2022</small>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img class="card-img-top" src="{% static '/img/gr_6.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Название карточки</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-sm btn-outline-warning">Подробнее</a>
+                            </div>    
+                                <small class="text-muted">28.05.2022</small>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </div> -->
     </div>
 {% endblock %}
 {% block pagination %}
