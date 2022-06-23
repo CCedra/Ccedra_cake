@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="navbar-nav active">
-                <a href="#" class="nav-link">Главная</a>
+                <a href="{% url 'index' %}" class="nav-link">Главная</a>
             </li>
             <li class="navbar-nav">
                 <a href="#" class="nav-link">Контакты</a>
@@ -21,7 +21,7 @@
         <button class="btn btn-outline-success my-2 my-sm-0 mr-2" type="submit">Найти</button>
       </form>
       <a href="#" class="btn btn-outline-light my-2 my-sm-0">Вход</a>
-      <a href="#" class="btn btn-outline-light my-2 my-sm-0">Регистрация</a>
+      <a href="{% url 'signup' %}" class="btn btn-outline-light my-2 my-sm-0">Регистрация</a>
       <a href="#" class="btn btn-outline-light my-2 my-sm-0">Выход</a>
     </div>
 </nav>
